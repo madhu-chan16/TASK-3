@@ -58,10 +58,10 @@ Features:
 ## 📸 Screenshots
 
 ### 🔧 Flask App Running
-![Flask Running Screenshot](your-screenshot1.png)
+![Flask Running Screenshot]()
 
 ### 🌐 Web App Predicting
-![Prediction Screenshot](your-screenshot2.png)
+![Prediction Screenshot](http://127.0.0.1:5000/)
 
 ---
 
