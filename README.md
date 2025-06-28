@@ -57,11 +57,11 @@ Features:
 
 ## 📸 Screenshots
 
-### 🔧 Flask Setup & Dependencies Installed
-![Flask Terminal](c4cc6e63-425e-4ebd-899c-db071db0f2f4.png)
+### 🔧 Flask App Running
+![Flask Running Screenshot](your-screenshot1.png)
 
-### 📈 Model Performance - Actual vs Predicted
-![Accuracy Graph](6bf5a1eb-be40-4df2-9f8f-c8350fdd517b.png)
+### 🌐 Web App Predicting
+![Prediction Screenshot](your-screenshot2.png)
 
 ---
 
