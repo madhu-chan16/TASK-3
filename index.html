@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>House Price Predictor</title></head>
+<body>
+    <h2>Enter House Details</h2>
+    <form method="POST" action="/predict">
+        <input type="text" name="MedInc" placeholder="Median Income"><br>
+        <input type="text" name="HouseAge" placeholder="House Age"><br>
+        <input type="text" name="AveRooms" placeholder="Avg Rooms"><br>
+        <input type="text" name="AveBedrms" placeholder="Avg Bedrooms"><br>
+        <input type="text" name="Population" placeholder="Population"><br>
+        <input type="text" name="AveOccup" placeholder="Avg Occupants"><br>
+        <input type="text" name="Latitude" placeholder="Latitude"><br>
+        <input type="text" name="Longitude" placeholder="Longitude"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
