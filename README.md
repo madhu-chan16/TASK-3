@@ -1,85 +1,74 @@
 # 🏠 House Price Predictor - CodTech Internship Task 3
 
-This project is developed as part of my internship at **CodTech IT Solutions**.
+This is my final project for the **CodTech Internship**.  
+In this project, I developed an end-to-end machine learning pipeline to predict California house prices and deployed the model using **Flask** as a web application.
+
+---
 
 ## 📌 Problem Statement
-Build an end-to-end data science project to predict house prices using the California Housing dataset, including:
-- Data Collection
-- Preprocessing
-- Model Training
-- Deployment using Flask
+
+Develop a complete data science project:
+- Load and analyze California housing data
+- Train a regression model
+- Evaluate the performance
+- Save the trained model
+- Build a Flask web app for predictions
 
 ---
 
-## 📊 Dataset
-Used the California Housing dataset from `sklearn.datasets`.
+## 🧠 Model Summary
 
-Features:
-- MedInc (Median income)
-- HouseAge
-- AveRooms
-- AveBedrms
-- Population
-- AveOccup
-- Latitude
-- Longitude
-
----
-
-## ✅ Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Flask
-- HTML (for UI)
-- Matplotlib
-
----
-
-## 🧠 Model
 - **Algorithm**: RandomForestRegressor
-- **Metric**: R² Score and Mean Squared Error
+- **Dataset**: California Housing Dataset (from sklearn)
+- **Input Features**:  
+  `MedInc`, `HouseAge`, `AveRooms`, `AveBedrms`, `Population`, `AveOccup`, `Latitude`, `Longitude`
+- **Target**: Median House Price
 
 ---
 
-## 💾 Model Output
-- MSE: *(Your value)*
-- R² Score: *(Your value)*
+## 🔢 Project Workflow
+
+1. Data Collection & Cleaning  
+2. Feature Selection  
+3. Model Training  
+4. Performance Evaluation  
+5. Model Serialization (`.pkl`)  
+6. Flask App Integration  
+7. Web UI with HTML
 
 ---
 
-## 🚀 Deployment
-- Trained model saved using `joblib`
-- Flask app created to accept 8 input values and return a predicted house price
-- Simple HTML form for user interaction
+## 💾 Model File
+
+Due to GitHub's 100MB upload limit, the trained model is shared separately:
+
+📥 [Download house_price_model.pkl from Google Drive](https://drive.google.com/your-link-here)  
+(*Replace this link with your actual model link*)
 
 ---
 
 ## 📸 Screenshots
 
-### 🔧 Flask Setup & Dependencies Installed
-![Flask Terminal](c4cc6e63-425e-4ebd-899c-db071db0f2f4.png)
+### 🔧 Flask App Setup
+![Flask Setup](c4cc6e63-425e-4ebd-899c-db071db0f2f4.png)
 
-### 📈 Model Performance - Actual vs Predicted
-![Accuracy Graph](6bf5a1eb-be40-4df2-9f8f-c8350fdd517b.png)
-
----
-
-## 🔗 Project Files
-- `CodTech_Task3_House_Price_Predictor.ipynb`: Model training
-- `app.py`: Flask backend
-- `requirements.txt`: Dependencies
-- `templates/index.html`: Frontend UI
-- `house_price_model.pkl`: Saved ML model
+### 📈 Model Accuracy Graph
+![Actual vs Predicted](6bf5a1eb-be40-4df2-9f8f-c8350fdd517b.png)
 
 ---
 
-## 🏁 Task Status
-✅ **Task 3 Completed**  
-🎓 Internship Final Project Delivered
+## 🛠 Tech Stack
+
+- Python
+- Scikit-learn
+- Pandas, NumPy
+- Joblib
+- Flask
+- HTML (for front-end)
+- Matplotlib
 
 ---
 
-## 🙌 Special Thanks
-Grateful to **CodTech IT Solutions** for the internship opportunity. This project helped me understand end-to-end model building and deployment using Flask.
+## 🗂️ Folder Structure
+
 
